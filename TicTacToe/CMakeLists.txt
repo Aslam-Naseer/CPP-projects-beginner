@@ -5,4 +5,4 @@ file(GLOB SRC_FILES "src/*.cpp")
 
 set(INCLUDE_DIRS "include/")
 
-add_executable(TicTacToe src/main.cpp)
+add_executable(TicTacToe ${SRC_FILES})
